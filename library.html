@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    <title>Library - BILLIONARE'S HUB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="gradient-text">BILLIONARE'S HUB</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="library.html">Library</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero page-hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text">Learning Library</span>
+                </h1>
+                <p class="hero-subtitle">Access our collection of trading sessions, analysis videos, and educational content</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Library Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="library-intro">
+                <h2>Educational Resources</h2>
+                <p>Browse our growing library of trading educational content. Filter by category to find exactly what you're looking for.</p>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Content</button>
+                <button class="filter-btn" data-filter="video">Videos</button>
+                <button class="filter-btn" data-filter="image">Images</button>
+                <button class="filter-btn" data-filter="analysis">Market Analysis</button>
+                <button class="filter-btn" data-filter="psychology">Psychology</button>
+            </div>
+
+            <!-- Library Grid -->
+            <div class="library-grid">
+                <!-- Video Item 1 -->
+                <div class="library-item" data-category="video analysis">
+                    <div class="library-thumbnail">
+                        <img src="trading candle chart.jpg" alt="Technical Analysis Masterclass">
+                        <div class="play-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="item-badge">Video</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Technical Analysis Masterclass</h3>
+                        <p>Learn how to read charts like a pro and identify high-probability trade setups.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-clock"></i> 45 min</span>
+                            <span><i class="far fa-calendar"></i> 2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Item 1 -->
+                <div class="library-item" data-category="image analysis">
+                    <div class="library-thumbnail">
+                        <img src="20_ Stay Updated with Engaging Trading Content .jpg" alt="Chart Patterns Cheat Sheet">
+                        <div class="item-badge">Image</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Chart Patterns Cheat Sheet</h3>
+                        <p>All essential chart patterns in one easy-to-reference guide.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-calendar"></i> 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Item 2 -->
+                <div class="library-item" data-category="video psychology">
+                    <div class="library-thumbnail">
+                        <img src="game time.jpg" alt="Trading Psychology">
+                        <div class="play-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="item-badge">Video</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Mastering Trading Psychology</h3>
+                        <p>Learn how to control emotions and maintain discipline in your trading.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-clock"></i> 38 min</span>
+                            <span><i class="far fa-calendar"></i> 3 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Item 2 -->
+                <div class="library-item" data-category="image psychology">
+                    <div class="library-thumbnail">
+                        <img src="Homepage Pic 1.jpg" alt="Psychology Tips">
+                        <div class="item-badge">Image</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>10 Psychology Tips for Traders</h3>
+                        <p>Essential mental strategies for consistent trading performance.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-calendar"></i> 2 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Item 3 -->
+                <div class="library-item" data-category="video analysis">
+                    <div class="library-thumbnail">
+                        <img src="🌱 Mastering Crypto Investing_ Key Strategies for Success.jpg" alt="Risk Management">
+                        <div class="play-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="item-badge">Video</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Risk Management Strategies</h3>
+                        <p>Protect your capital with these proven risk management techniques.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-clock"></i> 52 min</span>
+                            <span><i class="far fa-calendar"></i> 1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Item 3 -->
+                <div class="library-item" data-category="image analysis">
+                    <div class="library-thumbnail">
+                        <img src="Becoming Profitable with Trading.jpg" alt="Risk Reward Ratio">
+                        <div class="item-badge">Image</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Risk-Reward Ratio Guide</h3>
+                        <p>Visual guide to understanding and applying risk-reward ratios.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-calendar"></i> 3 months ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Item 4 -->
+                <div class="library-item" data-category="video analysis">
+                    <div class="library-thumbnail">
+                        <img src="📊SMC GUIDE » consisting of 98 characters.jpg" alt="Candlestick Patterns">
+                        <div class="play-overlay">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <div class="item-badge">Video</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Candlestick Patterns Deep Dive</h3>
+                        <p>Comprehensive guide to reading and trading candlestick patterns.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-clock"></i> 1 hr 15 min</span>
+                            <span><i class="far fa-calendar"></i> 5 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Item 4 -->
+                <div class="library-item" data-category="image analysis">
+                    <div class="library-thumbnail">
+                        <img src="Webinars.jpg" alt="Trading Indicators">
+                        <div class="item-badge">Image</div>
+                    </div>
+                    <div class="library-details">
+                        <h3>Trading Indicators Reference</h3>
+                        <p>Quick reference guide to the most popular trading indicators.</p>
+                        <div class="item-meta">
+                            <span><i class="far fa-calendar"></i> 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-container">
+                <button class="load-more-btn">Load More Content</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="video-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Technical Analysis Masterclass</h3>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <video controls>
+                    <source src="#" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-details">
+                    <p>Learn how to read charts like a pro and identify high-probability trade setups. This masterclass covers everything from basic support and resistance to advanced pattern recognition.</p>
+                    <div class="video-meta">
+                        <span><i class="far fa-clock"></i> 45 min</span>
+                        <span><i class="far fa-calendar"></i> 2 weeks ago</span>
+                        <span><i class="far fa-eye"></i> 243 views</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want Access to Our Full Library?</h2>
+                <p>Join our mentorship program to unlock all premium content and resources</p>
+                <a href="contact.html" class="btn btn-primary">Join Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">Pip Ninjas</h3>
+                    <p>Professional Forex and Stock Trading Mentorship Program</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="library.html">Library</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="resources.html">Trading Tools</a></li>
+                        <li><a href="resources.html">Indicators</a></li>
+                        <li><a href="books.html">E-books</a></li>
+                        <li><a href="library.html">Video Sessions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                       <a href="#"><img src="WhatsApp.jpg" alt="WhatsApp"></a>
+                        <a href="#"><img src="pinterest icon.png" alt="Pinterest"></a>
+                        <a href="#"><img src="Insta Icon.png" alt="Instagram"></a>
+                        <a href="#"><img src="Facebook Icon.png" alt="Facebook"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Pip Ninjas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
